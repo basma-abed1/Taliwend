@@ -2,7 +2,7 @@ function FeatureBox({ title, desc, icon }) {
   return (
     <div className="text-white flex flex-col items-center text-center p-4">
         <img 
-          src={`/src/assets/images/${icon}`} 
+          src={`/images/${icon}`} 
           alt={title} 
           className="w-[80px] h-[80px] object-contain" 
         />

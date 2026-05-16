@@ -4,7 +4,7 @@ function StayProductive() {
    <section className="pb-[150px]">
     <div className="container grid grid-cols-1 md:grid-cols-2 gap-[30px]">
       <div>
-        <img src="/src/assets/images/illustration-stay-productive.png" alt="stay-productive-img"/>
+        <img src="/images/illustration-stay-productive.png" alt="stay-productive-img"/>
       </div>
       <div className="text-white">
         <h3 className="font-medium text-[35px] leading-[50px]">Stay productive,

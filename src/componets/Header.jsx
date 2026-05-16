@@ -33,7 +33,7 @@ function Header() {
     >
       <div className="container flex justify-between items-center p-x[30px] sm:gap-0 ">
         <a href="/">
-          <img src='/src/assets/images/logo.svg' alt="logo-img" className="w-40" />
+          <img src='/images/logo.svg' alt="logo-img" className="w-40" />
         </a>
         <nav>
           <ul className="flex items-center gap-[50px]">
