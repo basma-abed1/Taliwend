@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@theme {
+  --breakpoint-sm: 600px;
+  --color-primary: #67dbda;
+ @keyframes moveRight{
+   0% {transform:translateX(0);}
+   50% { transform: translateX(10px); }
+   100% {transform:translateX(0);}
+ }
+
+ --animate-moveRight:moveRight 1s ease-in-out infinite
+}
+
+
+@layer components{
+    .container{
+        @apply px-[30px]  mx-auto;
+    }
+    .element-center{
+        @apply flex justify-center items-center ;
+    }
+    .btn{
+        @apply bg-[#232d30] hover:bg-[#8cdae4] transition-all duration-200;
+    }
+    
+  
+}
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #181e2a;
+}
+h1{
+    font-size: 40px;
+    line-height: 40px;
+}
